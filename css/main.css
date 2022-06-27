@@ -20,6 +20,12 @@ img {
   height: auto;
 }
 
+.body {
+  background-color: var(--primery-background-color);
+  color: var(--primery-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
 .hidden {
   display: none;
 }
@@ -49,13 +55,7 @@ img {
   --accent-text-color: #2196f3;
   --primery-background-color: #ffffff;
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --logo-font: font-family Raleway, sans-serif;
-}
-
-.body {
-  background-color: var(--primery-background-color);
-  color: var(--primery-text-color);
-  font-family: "Roboto", sans-serif;
+  --logo-font: Raleway, sans-serif;
 }
 
 .container {
