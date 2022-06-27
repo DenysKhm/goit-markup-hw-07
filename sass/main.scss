@@ -1,1 +1,19 @@
+@import "./components/container";
+@import "./components/section";
+@import "./components/navigation";
+@import "./components/contacts";
+@import "./components/button";
+@import "./components/title-h2";
 
+@import "./base/reset";
+@import "./base/body";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/services-section";
+@import "./layout/job-section";
+
+@import "./utils/hidden";
+@import "./utils/vars";
+
+@import "./logo";
