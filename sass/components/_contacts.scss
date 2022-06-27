@@ -17,23 +17,21 @@
 	display: flex;
 	align-items: center;
 	transition: color var(--transition);
+	&:hover,
+	&:focus {
+		color: var(--accent-text-color);
+	}
 }
 .contact__link-icon {
 	margin-right: 10px;
 	fill: currentColor;
 }
 
-.contacts__link:hover,
-.contacts__link:focus {
-	color: var(--accent-text-color);
-}
-
-.contacts__item:not(:last-child) {
-	margin-right: 50px;
-}
-
 .contacts__item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	&:not(:last-child) {
+		margin-right: 50px;
+	}
 }

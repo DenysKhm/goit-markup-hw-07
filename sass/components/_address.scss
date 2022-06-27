@@ -13,8 +13,10 @@
 	margin-bottom: 9px;
 }
 
-.address__contact-item:first-child {
-	margin-bottom: 9px;
+.address__contact-item {
+	&:first-child {
+		margin-bottom: 9px;
+	}
 }
 
 .address__link {

@@ -6,12 +6,12 @@
 	padding: 0;
 }
 
-.services__item:not(:last-child) {
-	margin-right: 30px;
-}
 .services__item {
 	width: 270px;
 	flex-basis: calc((100% - 90px) / 4);
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 .services__icon-list {
 	width: 270px;

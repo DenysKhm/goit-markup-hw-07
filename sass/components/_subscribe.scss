@@ -25,12 +25,11 @@
 	padding: 15px 16px;
 	cursor: pointer;
 	color: #ffffff;
-}
-
-.subscribe__input:hover,
-.subscribe__input:focus {
-	border: 1px solid var(--accent-text-color);
-	outline: none;
+	&:hover,
+	&:focus {
+		border: 1px solid var(--accent-text-color);
+		outline: none;
+	}
 }
 
 .subscribe__button {

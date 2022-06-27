@@ -16,18 +16,17 @@
 	height: 92px;
 	outline: none;
 	transition: border var(--transition);
-}
-.clients__link:hover,
-.clients__link:focus {
-	border: 1px solid var(--accent-text-color);
+	&:hover,
+	&:focus {
+		border: 1px solid var(--accent-text-color);
+	}
+	&:hover .clients__icon,
+	&:focus .clients__icon {
+		fill: var(--accent-text-color);
+	}
 }
 
 .clients__icon {
 	fill: rgba(175, 177, 184, 1);
 	transition: fill var(--transition);
-}
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-	fill: var(--accent-text-color);
 }

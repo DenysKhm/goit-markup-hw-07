@@ -11,6 +11,17 @@
 .portfolio__link {
 	display: block;
 	transition: box-shadow var(--transition);
+	&:hover,
+	&:focus {
+		cursor: pointer;
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+		outline: none;
+	}
+	&:hover .portfolio__top-text,
+	&:focus .portfolio__top-text {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 .portfolio__item {
@@ -18,23 +29,11 @@
 	position: relative;
 }
 
-.portfolio__link:hover .portfolio__top-text,
-.portfolio__link:focus .portfolio__top-text {
-	transform: translateY(0);
-	opacity: 1;
-}
-
 .portfolio__border {
 	border-right: 1px solid #eeeeee;
 	border-left: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
 	padding: 20px 24px;
-}
-.portfolio__link:hover,
-.portfolio__link:focus {
-	cursor: pointer;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-	outline: none;
 }
 
 .portfolio__title {

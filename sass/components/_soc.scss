@@ -17,21 +17,19 @@
 	align-items: center;
 	justify-content: center;
 	transition: background-color var(--transition);
-}
-
-.soc__link:hover,
-.soc__link:focus {
-	background-color: var(--accent-text-color);
-	outline: none;
+	&:hover,
+	&:focus {
+		background-color: var(--accent-text-color);
+		outline: none;
+	}
 }
 
 .soc__link--team {
 	background-color: #ffffff;
-}
-
-.soc__link--team:hover .soc__icon,
-.soc__link--team:focus .soc__icon {
-	fill: #ffffff;
+	&:hover .soc__icon,
+	&:focus .soc__icon {
+		fill: #ffffff;
+	}
 }
 
 .soc__link--footer {
