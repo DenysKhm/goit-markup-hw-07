@@ -3,6 +3,7 @@
 }
 
 .address__item {
+	font-family: var(--font-main);
 	color: #ffffff;
 	font-style: normal;
 	font-weight: 400;
@@ -20,6 +21,7 @@
 }
 
 .address__link {
+	font-family: var(--font-main);
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
 	font-weight: 400;

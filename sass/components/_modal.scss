@@ -46,6 +46,7 @@
 }
 
 .modal__title {
+	font-family: var(--font-main);
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.15;
@@ -67,6 +68,7 @@
 }
 
 .modal-label__text {
+	font-family: var(--font-main);
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.17;
@@ -142,6 +144,7 @@
 }
 
 .modal-policy__text {
+	font-family: var(--font-main);
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -178,6 +181,7 @@
 }
 
 .modal-button {
+	font-family: var(--font-main);
 	background-color: #2196f3;
 	color: #ffffff;
 	font-weight: 700;

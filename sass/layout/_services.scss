@@ -24,6 +24,7 @@
 }
 .services__title {
 	color: var(--title-text-color);
+	font-family: var(--font-main);
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -32,6 +33,7 @@
 	margin-bottom: 10px;
 }
 .services__text {
+	font-family: var(--font-main);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
